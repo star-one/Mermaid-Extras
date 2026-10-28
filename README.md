@@ -113,6 +113,6 @@ The tests use the real Mermaid in jsdom. jsdom has no layout engine, so they che
 
 ## Licence
 
-MIT: see [LICENSE](LICENSE). Put your own name in the copyright line before you publish.
+MIT: see [LICENSE](LICENSE).
 
 Mermaid Extras is an independent project. It is not affiliated with or endorsed by the Mermaid project; all the drawing is done by [Mermaid](https://mermaid.js.org).
