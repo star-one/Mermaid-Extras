@@ -1,0 +1,34 @@
+/* Mermaid Extras - the only styles the library needs. Everything is namespaced with "mx-" and easy to override. */
+
+.mx-view {
+  position: relative;
+  min-height: 120px;
+}
+
+/* The scrolling box that holds the chart. Give .mx-view (or .mx-scroll) a height to make it scroll within a fixed area. */
+.mx-scroll {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.mx-canvas svg {
+  display: block;
+  max-width: none;   /* Mermaid sets a max-width; the zoom controls decide the size instead */
+}
+
+/* Boxes, groups and bars that a click can do something with (see the 'target' event) */
+.mx-clickable,
+.mx-clickable * {
+  cursor: pointer;
+}
+
+.mx-clickable:hover {
+  filter: brightness(0.94);
+}
+
+/* The centre of a mind map is not a real box: it can be clicked (to add a box off the centre) but not edited */
+.mx-add-only {
+  cursor: copy;
+}

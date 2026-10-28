@@ -1,0 +1,22 @@
+{
+  "name": "mermaid-extras",
+  "version": "1.0.0",
+  "description": "Zoom, export, click-to-edit and extra chart types (Tree view, a much richer Gantt) for Mermaid. Plain ES modules, no build step.",
+  "type": "module",
+  "main": "lib/mermaid-extras.js",
+  "exports": {
+    ".": "./lib/mermaid-extras.js",
+    "./css": "./lib/mermaid-extras.css"
+  },
+  "files": ["lib", "docs", "LICENSE", "README.md"],
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "serve": "node tools/serve.mjs"
+  },
+  "keywords": ["mermaid", "gantt", "treeview", "kanban", "mindmap", "flowchart", "diagram", "zoom", "export"],
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "mermaid": "11.17.2"
+  }
+}
